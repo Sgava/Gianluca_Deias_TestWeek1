@@ -41,7 +41,6 @@ namespace Test_week1_GianlucaDeias
             return sceltaUtente;
         }
 
-
         public static void Start()
         {
             bool continua = true;

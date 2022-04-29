@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Test_week1_GianlucaDeias;
 using Test_week1_GianlucaDeias.Entities;
 using Test_week1_GianlucaDeias.Interfaces;
-using Test_week1_GianlucaDeias.Repositories;
 
 namespace Test_week1_GianlucaDeias.Repositories
 {
     public class RepositoryTecnologicoFile : IRepositoryTecnologico
     {         
-        string path = @"C:\Users\gianluca.deias\source\repos\Test_week1_GianlucaDeias\Test_week1_GianlucaDeias\Repositories\InventarioAlimentari.txt";
+        string path = @"C:\Users\gianluca.deias\source\repos\Test_week1_GianlucaDeias\Test_week1_GianlucaDeias\Repositories\InventarioTecnologico.txt";
         public bool Aggiungi(ProdottoTecnologico item)
         {
             using (StreamWriter sw = new StreamWriter(path, true))

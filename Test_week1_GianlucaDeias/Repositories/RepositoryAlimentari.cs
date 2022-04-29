@@ -14,7 +14,8 @@ namespace Test_week1_GianlucaDeias.Repositories
         {
             new ProdottoAlimentare("ewe", "fagiuolo", 12, 3, new DateTime(2022, 5, 10)),
             new ProdottoAlimentare("1200", "zucchina",2,120,new DateTime(2022, 6,30)),
-            new ProdottoAlimentare("300", "farro",2,120,new DateTime(2022, 4,30))
+            new ProdottoAlimentare("300", "coca cola",2,120,new DateTime(2022, 4,30)),
+            new ProdottoAlimentare("far", "farro",2,120,new DateTime(2022, 5,1))
         };
 
         public bool Aggiungi(ProdottoAlimentare item)
@@ -38,7 +39,7 @@ namespace Test_week1_GianlucaDeias.Repositories
             return prodottiFiltrati;
         }
 
-        public List<ProdottoAlimentare> CercaProdottoPerScadenza(int giorniMancantiScadenza)
+        public List<ProdottoAlimentare> CercaProdottoPerScadenza(double giorniMancantiScadenza)
         {
             List<ProdottoAlimentare> prodottiFiltrati = new List<ProdottoAlimentare>();
             foreach (var item in prodottiAlimentari)

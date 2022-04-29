@@ -10,6 +10,6 @@ namespace Test_week1_GianlucaDeias.Interfaces
     internal interface IRepositoryAlimentare : IRepository<ProdottoAlimentare>
     {
         List<ProdottoAlimentare> CercaProdottoAlimentarePerCodice(string codice);
-        List<ProdottoAlimentare> CercaProdottoPerScadenza(int giorniMancantiScadenza);
+        List<ProdottoAlimentare> CercaProdottoPerScadenza(double giorniMancantiScadenza);
     }
 }

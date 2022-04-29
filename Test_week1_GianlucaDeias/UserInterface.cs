@@ -86,7 +86,7 @@ namespace Test_week1_GianlucaDeias
 
         private static void VisualizzaProdottiAlimentariInScadenzaABreve()
         {
-            var listaProdottiFiltrata = repositoryAlimentare.CercaProdottoPerScadenza(1);
+            var listaProdottiFiltrata = repositoryAlimentare.CercaProdottoPerScadenza(3);
 
             if (listaProdottiFiltrata.Count == 0)
             {

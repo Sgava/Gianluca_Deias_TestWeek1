@@ -1,0 +1,3 @@
+﻿123,tv,200,samsung,Nuovo
+qwe,qwe,200,sony,Usato
+999,joypad,70,microsoft,Usato
